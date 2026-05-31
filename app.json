@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Position Sender",
+    "slug": "position-sender",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "backgroundColor": "#0a0a0a"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#0a0a0a"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ],
+      "package": "sk.pidiman.positionsender"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Táto aplikácia potrebuje GPS polohu na odoslanie do n8n."
+        }
+      ]
+    ]
+  }
+}

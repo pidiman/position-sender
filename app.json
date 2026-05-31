@@ -4,6 +4,7 @@
     "slug": "position-sender",
     "version": "1.0.0",
     "orientation": "portrait",
+    "sdkVersion": "53.0.0",
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#0a0a0a"

@@ -4,13 +4,8 @@
     "slug": "position-sender",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "backgroundColor": "#0a0a0a"
-    },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#0a0a0a"
       },
       "permissions": [
@@ -26,6 +21,11 @@
           "locationAlwaysAndWhenInUsePermission": "Táto aplikácia potrebuje GPS polohu na odoslanie do n8n."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3db26781-cbc0-42cf-8fff-5e77d2ee1da0"
+      }
+    }
   }
 }
